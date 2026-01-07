@@ -1,0 +1,25 @@
+#cal{
+    text-align: center;
+}
+#calculator {
+    border: 2px solid black;
+    border-radius: 10PX;
+    width: 200PX;
+    padding: 10px;
+    margin-left: 550px;
+}
+#display{
+    margin: 13px;
+    width: 85%;
+    font-size: 25px;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.buttons{   
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+}
