@@ -22,4 +22,15 @@
     width: 45px;
     height: 45px;
     margin: 5px;
+    border-radius: 3px;
+    font-size: large;
+}
+.buttons:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.buttons:active{
+    background-color: gray;
+    color: white;
+    transition: 0.1s;
 }
